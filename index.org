@@ -25,7 +25,7 @@
 
 原作這建議將這張圖片印出來，每天膜拜一定可以有所成 (?)
 
-[[file:data/future-googler.png]]
+[[file:images/future-googler.png]]
 
 * Interview Process & General Interview Prep
 
@@ -95,18 +95,18 @@
 
    所以就讓我們挑那幾個 Gauthier 回答錯的問題仔細看看。
 
-   [[file:data/google-interview-university/rc-5.png]]
+   [[file:images/gwan/rc-5.png]]
 
 
-   [[file:data/google-interview-university/rc-6.png]]
+   [[file:images/gwan/rc-6.png]]
 
    這一題寫過 Unix 程式的人都知道，面試官連基本知識都沒有，我們來透過 manpage 來看看 =stat()= 的描述:
 
-   [[file:data/google-interview-university/rc-6a.png]]
+   [[file:images/gwan/rc-6a.png]]
 
    看到沒，回傳值是 =error code= 而不是 =inode metadata= ，面試官去吃屎吧。
 
-   [[file:data/google-interview-university/rc-7.png]]
+   [[file:images/gwan/rc-7.png]]
 
    這一題我真的不懂面試官的邏輯，SIGNAL KILL 的簡寫就是 =SIGKILL= ，這訊號和 SIGNAL TERMINATE ( SIGTERM ) 本來就是不同的，用途也是不一樣。
 
@@ -116,13 +116,13 @@
 
    這一題我想原始題目應該是要問: =kill 這命令發出的是怎樣的 SIGNAL？= ，這樣的答案才符合 SIGTERM 這條件。
 
-   [[file:data/google-interview-university/rc-8.png]]
+   [[file:images/gwan/rc-8.png]]
 
    做工程的人永遠都要記得一件事，那就是 =世界上沒有萬靈藥= 。
 
    [[https://zh.wikipedia.org/wiki/%25E5%25BF%25AB%25E9%2580%259F%25E6%258E%2592%25E5%25BA%258F][quick-sort]] 雖然大部分狀況下都是 Ο(n log n) 的速度，但是最糟狀況會出現 =O(n²)= 這種情況。我們可以看看下表的比較圖:
 
-   [[file:data/google-interview-university/sort.jpg]]
+   [[file:images/gwan/sort.jpg]]
 
    所以真的有所謂的 =best sorting= 嘛? 沒有，畢竟好壞都是相對的，會依據情況不同而改變。 這邊來說說看為何 Linux kernel 選擇用 [[https://zh.wikipedia.org/zh-tw/%25E5%25A0%2586%25E6%258E%2592%25E5%25BA%258F][heap-sort]] 而不是 [[https://zh.wikipedia.org/wiki/%25E5%25BF%25AB%25E9%2580%259F%25E6%258E%2592%25E5%25BA%258F][quick-sort]]。
 
@@ -157,10 +157,10 @@ would be used in the kernel.
 
    還在幻想有一勞永逸的方法? 別鬧了，請以實際狀況為準。
 
-   [[file:data/google-interview-university/rc-9.png]]
+   [[file:images/gwan/rc-9.png]]
 
 
-   [[file:data/google-interview-university/rc-10.png]]
+   [[file:images/gwan/rc-10.png]]
 
 
 
