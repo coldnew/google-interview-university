@@ -53,7 +53,7 @@
   :ensure t
   :config
   ;; syntax highlight
-  (use-package htmlize)
+  (use-package htmlize :ensure t)
   (setq org-html-htmlize-output-type 'css)
   ;; org-babel
   (org-babel-do-load-languages
@@ -70,6 +70,3 @@
   "Export the index.org to index.html."
   (find-file "index.org")
   (org-html-export-to-html))
-
-;; generate the doc
-(generate-this-doc)
