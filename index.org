@@ -1,7 +1,7 @@
 #+TITLE: google-interview-university 筆記
 #+AUTHOR: Yen-Chin, Lee
 #+EMAIL:  coldnew.tw@gmail.com
-#+DATE: 2012-10-23 14:43:53
+#+DATE: 2017-02-07 12:05:46
 #+UPDATED: 2016-02-26 09:20:26
 #+STARTUP: logdone
 #+OPTIONS: ^:nil -:nil \n:t LaTeX:dvipng
@@ -14,9 +14,10 @@
 #+HTML_HEAD: <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 #+HTML: <div class="outline-2" id="meta">
-| *Author* | {{{author}}} <{{{email}}}>                             |
-| *Date*   | {{{time(%Y-%m-%d %H:%M:%S)}}}                          |
-| *GitHub* | https://github.com/coldnew/google-interview-university |
+| *Author*      | {{{author}}} <{{{email}}}>                             |
+| *Create Date* | {{{date}}}                                             |
+| *Last Update* | {{{time(%Y-%m-%d %H:%M:%S)}}}                          |
+| *GitHub*      | https://github.com/coldnew/google-interview-university |
 #+HTML: </div>
 
 * 關於這份文件
