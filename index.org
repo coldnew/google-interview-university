@@ -231,10 +231,6 @@ would be used in the kernel.
 
   以下列出一些我的額外讀物
 
-  - [X] [[https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details][軟體開發見聞錄 · GitBook]]
-
-    微軟 RD 卸任後的心得。
-
   - [ ] [[https://github.com/lnishan/awesome-competitive-programming][awesome-competitive-programming]] 
 
     A curated list of awesome Competitive Programming, Algorithm and Data Structure resources
@@ -247,7 +243,7 @@ would be used in the kernel.
 
 * 其他參考
 
-** How to Work at Google: Example Coding/Engineering Interview
+** TODO How to Work at Google: Example Coding/Engineering Interview
 
    這是 Google 提供的參考面試影片。
 
@@ -256,6 +252,13 @@ would be used in the kernel.
    #+END_HTML
 
 * 其他書單
+
+** DONE M 社軟體開發見聞錄
+   CLOSED: [2017-02-07 Tue 18:00]
+
+   網址: [[https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details][軟體開發見聞錄 · GitBook]]
+
+   這是從 M 社 (Microsoft) 退休的 RD 的心得, 寫在 GitBook 上，非常值得當課外讀物來看。
 
 ** DONE Soft Skills: The Software Developer's Life Manual
    CLOSED: [2017-02-07 Tue 17:55]
