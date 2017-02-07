@@ -40,8 +40,7 @@
 
 * Interview Process & General Interview Prep
 
-** DONE ABC: Always Be Coding
-   CLOSED: [2017-02-07 Tue 11:05]
+** TODO ABC: Always Be Coding
 
    文章連結: https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4
 
@@ -98,7 +97,9 @@
 
   以下列出我看到有人分享的面試經驗，以及一些看法。
 
-** [[http://www.gwan.com/blog/20160405.html][G-WAN > Google's "Director of Engineering" Hiring Test]]
+** TODO Google's "Director of Engineering" Hiring Test
+
+   文章連結: http://www.gwan.com/blog/20160405.html
 
    這一篇可以參考中文介紹: [[http://technews.tw/2016/10/21/googles-nit-picky-interview-process-is-a-huge-turnoff-for-some-experienced-coders/][Google 偏愛白板談兵的大學畢業生，勝過業界多年實務經驗的老工程師？ | TechNews 科技新報]]。
 
@@ -177,14 +178,27 @@ would be used in the kernel.
 
    結論： 沒能力的人坐領高薪真好 QQ
 
-** [[https://www.ptt.cc/bbs/Soft_Job/M.1478010654.A.9A6.html][歐洲 Facebook、Google、Booking 面試 - 看板 Soft_Job - 批踢踢實業坊]]
-** [[https://medium.com/@googleyasheck/i-didnt-get-hired-here-s-why-21f26d4784d5#.d170f2hua][I Didn’t Get Hired. Here’s Why]]
-** [[https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/][Google Interview]]
 
-** [[https://www.ptt.cc/bbs/Soft_Job/M.1486241833.A.6D3.html][{心得} 第二次 Google 面試洗臉心得 - 看板 Soft_Job - 批踢踢實業坊]]
+** TODO 歐洲 Facebook、Google、Booking 面試
+
+   文章連結: https://www.ptt.cc/bbs/Soft_Job/M.1478010654.A.9A6.html
+
+
+** TODO I Didn’t Get Hired. Here’s Why
+
+   文章連結: https://medium.com/@googleyasheck/i-didnt-get-hired-here-s-why-21f26d4784d5#.d170f2hua
+
+
+** TODO Google Interview
+
+   文章連結: https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/
+
+** TODO [心得] 第二次 Google 面試洗臉心得
+
+   文章連結: https://www.ptt.cc/bbs/Soft_Job/M.1486241833.A.6D3.html
 
 * 持續的自我學習
-  
+
   以下列出一些我的額外讀物
 
   - [X] [[https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details][軟體開發見聞錄 · GitBook]]
