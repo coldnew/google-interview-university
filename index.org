@@ -1,0 +1,208 @@
+#+TITLE: google-interview-university 筆記
+#+AUTHOR: Yen-Chin, Lee
+#+EMAIL:  coldnew.tw@gmail.com
+#+DATE: 2012-10-23 14:43:53
+#+UPDATED: 2016-02-26 09:20:26
+#+STARTUP: logdone
+#+OPTIONS: ^:nil -:nil \n:t LaTeX:dvipng
+#+LANGUAGE: zh-tw
+#+PERMALINK: note/google-interview-university
+#+OPTIONS: num:nil ^:nil toc:t
+#+OPTIONS: h:4 html-postamble:nil html-preamble:t tex:t f:t
+
+#+HTML_HEAD: <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css" />
+#+HTML_HEAD: <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+#+HTML: <div class="outline-2" id="meta">
+| *Author* | {{{author}}} <{{{email}}}>  |
+| *GitHub* | https://github.com/coldnew |
+| *Date*   | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+#+HTML: </div>
+
+* 關於這份文件
+
+這是我依據 [[https://github.com/jwasham/google-interview-university][google-interview-university]] 上面的提案，進行學習所作的筆記，雖然目的不一定是要成為 Googler，但是要讓我成為更專業的開發者。
+
+原作這建議將這張圖片印出來，每天膜拜一定可以有所成 (?)
+
+[[file:data/future-googler.png]]
+
+* Interview Process & General Interview Prep
+
+** DONE ABC: Always Be Coding
+   CLOSED: [2017-02-07 Tue 11:05]
+
+   文章連結: https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4
+
+   這篇文章提出了一個公式，用來計算你是否需要讀這篇文章。
+
+   #+BEGIN_SRC sh
+     # x = number of companies interviewed with onsite
+     # y = number of offers received
+     value = 100 * ln(x) * y / x
+   #+END_SRC
+
+   我自己計算的結果是:
+
+   : 100 * ln(7) * 6 / 7 = 166
+
+   恩，看起來我可以不用讀這篇文章，不過還是來讀一下好了。作者提供了幾個秘訣:
+
+   1. ABC (Always Be Coding)
+
+     你寫愈多程式，你可以學到愈多。
+
+   2. Master at least one multi-paradigm language.
+
+     也需要精通至少一種程式語言，學很多工具雖然好，但是你還是需要有一個專精的工具才行。
+
+   3. Complexities (複雜度)
+
+     你要了解所謂的複雜度 (Complexities)，這邊有一個表: [[http://bigocheatsheet.com/][Big-O Algorithm Complexity Cheat Sheet]] 可以讓你理解他的運作模式，並且你要 =自行實作這些演算法= 。
+
+     [[http://discrete.gr/complexity/][A Gentle Introduction to Algorithm Complexity Analysis]] 也是一篇值得推薦的文章。
+
+   4. Re-invent the wheel
+
+      自己重新製造輪子是一個吃力不討好的工作，不過可以在這過程中學習到很多資料結構、函式庫的概念。我覺得也可以自行去山寨那些知名的 APP, 這樣可以學到更多。
+
+   5. Solve word problems
+
+      作者建議去解那些知名的問題，推薦了 [[https://www.topcoder.com/][Topcoder]] 這網站，以及 [[https://www.topcoder.com/community/data-science/data-science-tutorials/][Data Science Tutorials]] 一文。去嘗試去解這些 [[https://community.topcoder.com/tc?module%3DMatchList][問題]] 。
+
+      #+BEGIN_QUOTE
+      Repetition doesn't spoil the prayer.  - Eric Schmidt
+      #+END_QUOTE
+
+      延伸閱讀: [[http://books.cw.com.tw/blog/article/375][讓你說的話被聽進去！Google 內部運作的 7 大溝通秘訣(上) - 我讀 WEDO - 天下雜誌]]
+
+   6. Make coding easy
+
+      在白板寫程式或 pair programming 時候，
+
+      推薦文章: [[https://medium.com/@dpup/whiteboarding-4df873dbba2e#.l0mwqvoul][Whiteboarding]]
+
+
+* 別人的面試經驗
+
+  以下列出我看到有人分享的面試經驗，以及一些看法。
+
+** [[http://www.gwan.com/blog/20160405.html][G-WAN > Google's "Director of Engineering" Hiring Test]]
+
+   這一篇可以參考中文介紹: [[http://technews.tw/2016/10/21/googles-nit-picky-interview-process-is-a-huge-turnoff-for-some-experienced-coders/][Google 偏愛白板談兵的大學畢業生，勝過業界多年實務經驗的老工程師？ | TechNews 科技新報]]。
+
+   老實說看了以後，我對 Google 面試官的能力深感懷疑，除了問的問題太簡單外，Gauthier (原文作者，也就是應徵者) 會回答的答案也差不多是我會回答的。
+
+   所以就讓我們挑那幾個 Gauthier 回答錯的問題仔細看看。
+
+   [[file:data/google-interview-university/rc-5.png]]
+
+
+   [[file:data/google-interview-university/rc-6.png]]
+
+   這一題寫過 Unix 程式的人都知道，面試官連基本知識都沒有，我們來透過 manpage 來看看 =stat()= 的描述:
+
+   [[file:data/google-interview-university/rc-6a.png]]
+
+   看到沒，回傳值是 =error code= 而不是 =inode metadata= ，面試官去吃屎吧。
+
+   [[file:data/google-interview-university/rc-7.png]]
+
+   這一題我真的不懂面試官的邏輯，SIGNAL KILL 的簡寫就是 =SIGKILL= ，這訊號和 SIGNAL TERMINATE ( SIGTERM ) 本來就是不同的，用途也是不一樣。
+
+   那到底是誰發出 kill 訊號呢? 廢話，當然是 [[https://en.wikipedia.org/wiki/Unix_signal#SIGKILL][SIGKILL]] (9) ......
+
+   想知道 SIGKILL 和 SIGTERM 不同的人，可以參考這篇文章看看: [[https://major.io/2010/03/18/sigterm-vs-sigkill/][SIGTERM vs. SIGKILL - major.io]]
+
+   這一題我想原始題目應該是要問: =kill 這命令發出的是怎樣的 SIGNAL？= ，這樣的答案才符合 SIGTERM 這條件。
+
+   [[file:data/google-interview-university/rc-8.png]]
+
+   做工程的人永遠都要記得一件事，那就是 =世界上沒有萬靈藥= 。
+
+   [[https://zh.wikipedia.org/wiki/%25E5%25BF%25AB%25E9%2580%259F%25E6%258E%2592%25E5%25BA%258F][quick-sort]] 雖然大部分狀況下都是 Ο(n log n) 的速度，但是最糟狀況會出現 =O(n²)= 這種情況。我們可以看看下表的比較圖:
+
+   [[file:data/google-interview-university/sort.jpg]]
+
+   所以真的有所謂的 =best sorting= 嘛? 沒有，畢竟好壞都是相對的，會依據情況不同而改變。 這邊來說說看為何 Linux kernel 選擇用 [[https://zh.wikipedia.org/zh-tw/%25E5%25A0%2586%25E6%258E%2592%25E5%25BA%258F][heap-sort]] 而不是 [[https://zh.wikipedia.org/wiki/%25E5%25BF%25AB%25E9%2580%259F%25E6%258E%2592%25E5%25BA%258F][quick-sort]]。
+
+   由上面的排序比較可以知道， [[https://zh.wikipedia.org/zh-tw/%25E5%25A0%2586%25E6%258E%2592%25E5%25BA%258F][heap-sort]] 在各種狀況，即使是最糟糕的狀況都是 =O(n log n)= ，這增加了效能的可預測性，我們來看看 kernel 內 =lib/sort.c= 的貢獻者怎說的:
+
+   ([[https://www.kernel.org/pub/linux/kernel/people/akpm/patches/2.6/2.6.11/2.6.11-mm2/broken-out/lib-sort-heapsort-implementation-of-sort.patch][原始 patch 連結]])
+
+   #+BEGIN_EXAMPLE
+   This patch adds a generic array sorting library routine. This is meant
+to replace qsort, which has two problem areas for kernel use.
+
+The first issue is quadratic worst-case performance. While quicksort
+worst-case datasets are rarely encountered in normal scenarios, it is
+in fact quite easy to construct worst cases for almost all quicksort
+algorithms given source or access to an element comparison callback.
+This could allow attackers to cause sorts that would otherwise take
+less than a millisecond to take seconds and sorts that should take
+less than a second to take weeks or months. Fixing this problem
+requires randomizing pivot selection with a secure random number
+generator, which is rather expensive.
+
+The second is that quicksort's recursion tracking requires either
+nontrivial amounts of stack space or dynamic memory allocation and out
+of memory error handling.
+
+By comparison, heapsort has both O(n log n) average and worst-case
+performance and practically no extra storage requirements. This
+version runs within 70-90% of the average performance of optimized
+quicksort so it should be an acceptable replacement wherever quicksort
+would be used in the kernel.
+   #+END_EXAMPLE
+
+   還在幻想有一勞永逸的方法? 別鬧了，請以實際狀況為準。
+
+   [[file:data/google-interview-university/rc-9.png]]
+
+
+   [[file:data/google-interview-university/rc-10.png]]
+
+
+
+   結論： 沒能力的人坐領高薪真好 QQ
+
+** [[https://www.ptt.cc/bbs/Soft_Job/M.1478010654.A.9A6.html][歐洲 Facebook、Google、Booking 面試 - 看板 Soft_Job - 批踢踢實業坊]]
+** [[https://medium.com/@googleyasheck/i-didnt-get-hired-here-s-why-21f26d4784d5#.d170f2hua][I Didn’t Get Hired. Here’s Why]]
+** [[https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/][Google Interview]]
+
+** [[https://www.ptt.cc/bbs/Soft_Job/M.1486241833.A.6D3.html][{心得} 第二次 Google 面試洗臉心得 - 看板 Soft_Job - 批踢踢實業坊]]
+
+* 持續的自我學習
+  
+  以下列出一些我的額外讀物
+
+  - [X] [[https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details][軟體開發見聞錄 · GitBook]]
+
+    微軟 RD 卸任後的心得。
+
+  - [ ] [[https://github.com/lnishan/awesome-competitive-programming][awesome-competitive-programming]] 
+
+    A curated list of awesome Competitive Programming, Algorithm and Data Structure resources
+
+  - [ ] [[https://github.com/xareelee/BeingAProgrammer][xareelee/BeingAProgrammer: 蒐集關於身為一個程序員的修養資訊]]
+
+    列舉一些不錯的書單。
+
+  - [ ] [[https://code.google.com/codejam/apactest/contests.html][Practice and Learn - Google Code Jam]]
+
+* 其他參考
+
+** How to Work at Google: Example Coding/Engineering Interview
+
+   這是 Google 提供的參考面試影片。
+
+   #+BEGIN_HTML
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allowfullscreen></iframe>
+   #+END_HTML
+
+* TODO
+
+[[https://hackernoon.com/my-slightly-unconventional-path-to-a-google-internship-329a4633a0c0#.e7u00k74j][My (slightly unconventional) path to a Google Internship]]
+
+
+https://www.google.com/edu/cs/learn/student.html
