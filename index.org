@@ -257,7 +257,8 @@ would be used in the kernel.
 
 * 其他書單
 
-** Soft Skills: The Software Developer's Life Manual
+** DONE Soft Skills: The Software Developer's Life Manual
+   CLOSED: [2017-02-07 Tue 17:55]
 
    Amazon: https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397
 
