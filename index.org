@@ -107,6 +107,10 @@
 
     https://www.youtube.com/watch?v=rEJzOhC5ZtQ
 
+    #+BEGIN_HTML
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rEJzOhC5ZtQ" frameborder="0" allowfullscreen></iframe>
+    #+END_HTML
+
 *** TODO Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)
 
     https://www.youtube.com/watch?v=aClxtDcdpsQ
