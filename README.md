@@ -1,4 +1,4 @@
-# My learning note on [google-interview-university](https://github.com/jwasham/google-interview-university)
+# My learning note on google-interview-university
 
 [![CircleCI](https://circleci.com/gh/coldnew/google-interview-university.svg?style=svg)](https://circleci.com/gh/coldnew/google-interview-university)
 
