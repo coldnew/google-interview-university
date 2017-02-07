@@ -7,7 +7,7 @@ Since this is my personal note, all text written in `Traditional Chinese`.
 
 這是我學習 [google-interview-university](https://github.com/jwasham/google-interview-university) 所撰寫的筆記，使用 `繁體中文` 撰寫。
 
-![future-googler](https://github.com/coldnew/google-interview-university/blob/master/data/future-googler.png)
+![future-googler](https://github.com/coldnew/google-interview-university/blob/master/images/future-googler.png)
 
 ## Credits
 
