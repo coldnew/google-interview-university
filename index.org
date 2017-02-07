@@ -92,6 +92,35 @@
 
       推薦文章: [[https://medium.com/@dpup/whiteboarding-4df873dbba2e#.l0mwqvoul][Whiteboarding]]
 
+** TODO Whiteboarding
+
+   文章連結: https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1
+
+** TODO Effective Whiteboarding during Programming Interviews
+
+   文章連結: http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/
+
+** TODO Cracking The Coding Interview Set 1:
+
+*** TODO Gayle L McDowell - Cracking The Coding Interview (video)
+
+    https://www.youtube.com/watch?v=rEJzOhC5ZtQ
+
+*** TODO Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)
+
+    https://www.youtube.com/watch?v=aClxtDcdpsQ
+
+** TODO How to Get a Job at the Big 4:
+
+*** TODO How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)
+
+    https://www.youtube.com/watch?v=YJZCUhxNCv8
+
+** TODO Prep Course
+
+*** TODO Software Engineer Interview Unleashed (paid course)
+
+    https://www.udemy.com/software-engineer-interview-unleashed
 
 * 別人的面試經驗
 
