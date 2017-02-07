@@ -14,7 +14,7 @@ rm -rf $OUT || exit 0;
 # clone repo directory
 git clone "https://${GH_TOKEN}@${GH_REF}" $OUT
 cd $OUT
-git checkout gh-pages || git checkout --orphan $TARGET_BRANCH
+git checkout gh-pages || git checkout --orphan gh-pages
 git rm -rf .*
 cd ..
 
