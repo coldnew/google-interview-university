@@ -14,9 +14,9 @@
 #+HTML_HEAD: <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 #+HTML: <div class="outline-2" id="meta">
-| *Author* | {{{author}}} <{{{email}}}>  |
-| *GitHub* | https://github.com/coldnew |
-| *Date*   | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+| *Author* | {{{author}}} <{{{email}}}>                             |
+| *Date*   | {{{time(%Y-%m-%d %H:%M:%S)}}}                          |
+| *GitHub* | https://github.com/coldnew/google-interview-university |
 #+HTML: </div>
 
 * 關於這份文件
