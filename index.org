@@ -254,6 +254,18 @@ would be used in the kernel.
    <iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allowfullscreen></iframe>
    #+END_HTML
 
+* 其他書單
+
+** Soft Skills: The Software Developer's Life Manual
+
+   Amazon: https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397
+
+   [[file:images/book-list/Soft Skills- The Software Developer's Life Manual.jpg]]
+
+   這本書有簡體翻譯本。此書裡面整理了軟體開發者從如何找工作等面試資訊，到你應該學習投資、養成運動習慣之類的資訊都涵蓋了，是一本對於 =軟體開發者= 蠻不錯的書籍。
+
+   這本書也在 [[https://softnshare.wordpress.com/2016/02/24/10classprogrammerbooks/][Soft & Share | 每位認真的程式設計師都要讀的 10 本經典書]] 推薦書單內，建議買來看。
+
 * TODO
 
 [[https://hackernoon.com/my-slightly-unconventional-path-to-a-google-internship-329a4633a0c0#.e7u00k74j][My (slightly unconventional) path to a Google Internship]]
