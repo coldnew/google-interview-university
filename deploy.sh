@@ -11,12 +11,8 @@ DATE=$(date)
 # clear and re-create the out directory
 rm -rf $OUT || exit 0;
 
-# clone repo directory
-git clone "https://${GH_TOKEN}@${GH_REF}" $OUT
-cd $OUT
-git checkout gh-pages || git checkout --orphan gh-pages
-git rm -rf .*
-cd ..
+# create repo directory
+mkdir -p $OUT
 
 # Copy all prebuild files
 cp README.* $OUT
