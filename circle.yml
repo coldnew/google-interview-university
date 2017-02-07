@@ -1,0 +1,32 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+
+machine:
+  timezone: Asia/Taipei
+  services:
+    - docker
+
+dependencies:
+  pre:
+    - sudo add-apt-repository -y ppa:cassou/emacs
+    - sudo add-apt-repository -y ppa:ubuntu-elisp/ppa
+    - sudo apt-get update
+    - sudo apt-get install -qq emacs24-nox emacs-snapshot
+    - sudo update-alternatives --set emacs /usr/bin/emacs24-nox
+  cache_directories:
+    - node_modules
+    - resources/bower_components
+
+test:
+  override:
+    - make
+
+deployment:
+  publish:
+    branch: master
+    commands:
+      - make
+      - sed -i 's%https://${GH_TOKEN}@${GH_REF}%git@github.com:coldnew/google-interview-university.git%g' deploy.sh
+      - ./deploy.sh
