@@ -66,9 +66,10 @@
      (plantuml . t)))
   )
 
-
 (defun generate-this-doc ()
   "Export the index.org to index.html."
   (find-file "index.org")
-  (org-html-export-to-html)
-  )
+  (org-html-export-to-html))
+
+;; generate the doc
+(generate-this-doc)
