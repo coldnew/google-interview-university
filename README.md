@@ -1,11 +1,10 @@
-# My learning note on google-interview-university
+# Learning note on google-interview-university
 
 [![CircleCI](https://circleci.com/gh/coldnew/google-interview-university.svg?style=svg)](https://circleci.com/gh/coldnew/google-interview-university)
 
 [Online Version](https://coldnew.github.io/google-interview-university)
 
-This is my learning note on [google-interview-university](https://github.com/jwasham/google-interview-university), I use [org-mode](http://orgmode.org) to write my note instead of markdown.
-Since this is my personal note, all text written in `Traditional Chinese`.
+This is my learning note on [google-interview-university](https://github.com/jwasham/google-interview-university), I use [org-mode](http://orgmode.org) to write my note instead of markdown and all text written in `Traditional Chinese`.
 
 這是我學習 [google-interview-university](https://github.com/jwasham/google-interview-university) 所撰寫的筆記，使用 `繁體中文` 撰寫。
 
