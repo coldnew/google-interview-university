@@ -41,37 +41,26 @@
 
 * Interview Process & General Interview Prep
 
-** TODO ABC: Always Be Coding
+** DONE ABC: Always Be Coding
+   CLOSED: [2017-02-08 Wed 10:44]
 
-   文章連結: https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4
+   原文連結: https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4
 
-   這篇文章提出了一個公式，用來計算你是否需要讀這篇文章。
-
-   #+BEGIN_SRC sh
-     # x = number of companies interviewed with onsite
-     # y = number of offers received
-     value = 100 * ln(x) * y / x
-   #+END_SRC
-
-   我自己計算的結果是:
-
-   : 100 * ln(7) * 6 / 7 = 166
-
-   恩，看起來我可以不用讀這篇文章，不過還是來讀一下好了。作者提供了幾個秘訣:
+   作者提供了幾個技巧:
 
    1. ABC (Always Be Coding)
 
-     你寫愈多程式，你可以學到愈多。
+      你寫愈多程式，你可以學到愈多。其實就是這樣簡單，在你寫程式的過程中，也同樣在進行學習。找個想做的專案去作，並做到最好就是最好的練習方式了。
 
    2. Master at least one multi-paradigm language.
 
-     也需要精通至少一種程式語言，學很多工具雖然好，但是你還是需要有一個專精的工具才行。
+      精通至少一種程式語言，學很多工具雖然好，但是你還是需要有一個專精的工具才行。作者列出的語言: C#, C++, Java, PHP, Python, Ruby。
 
    3. Complexities (複雜度)
 
-     你要了解所謂的複雜度 (Complexities)，這邊有一個表: [[http://bigocheatsheet.com/][Big-O Algorithm Complexity Cheat Sheet]] 可以讓你理解他的運作模式，並且你要 =自行實作這些演算法= 。
+      你要了解所謂的複雜度 (Complexities)，這邊有一個表: [[http://bigocheatsheet.com/][Big-O Algorithm Complexity Cheat Sheet]] 可以讓你理解他的運作模式，並且你要 =自行實作這些演算法= 。
 
-     [[http://discrete.gr/complexity/][A Gentle Introduction to Algorithm Complexity Analysis]] 也是一篇值得推薦的文章。
+      [[http://discrete.gr/complexity/][A Gentle Introduction to Algorithm Complexity Analysis]] 也是一篇值得推薦的文章。
 
    4. Re-invent the wheel
 
@@ -89,9 +78,11 @@
 
    6. Make coding easy
 
-      在白板寫程式或 pair programming 時候，
+      至少，讓你的程式碼看起來很簡單明瞭。這在面試時候的白板考題以及 pair programming 時候都很重要。
 
-      推薦文章: [[https://medium.com/@dpup/whiteboarding-4df873dbba2e#.l0mwqvoul][Whiteboarding]]
+      作者推薦文章: [[https://medium.com/@dpup/whiteboarding-4df873dbba2e#.l0mwqvoul][Whiteboarding]]
+
+      延伸閱讀: [[https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882][Clean Code]]
 
 ** TODO Whiteboarding
 
