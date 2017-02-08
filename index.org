@@ -301,6 +301,16 @@ would be used in the kernel.
 
    這本書也在 [[https://softnshare.wordpress.com/2016/02/24/10classprogrammerbooks/][Soft & Share | 每位認真的程式設計師都要讀的 10 本經典書]] 推薦書單內，建議買來看。
 
+** TODO 英、日語同步 Anki 自學法
+
+   博客來: http://www.books.com.tw/products/0010740471
+
+   [[file:images/book-list/anki.jpg]]
+
+   
+   不管學了在多的技術，語言是用來溝通用的工具也是很重要的。這本書好像不錯，拿來學習看看。詳細說明請見:[[http://blog.chunnorris.cc/2017/01/tolu-book.html][原作者部落格]] 。
+
+
 * TODO
 
 [[https://hackernoon.com/my-slightly-unconventional-path-to-a-google-internship-329a4633a0c0#.e7u00k74j][My (slightly unconventional) path to a Google Internship]]
