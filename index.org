@@ -84,9 +84,44 @@
 
       延伸閱讀: [[https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882][Clean Code]]
 
-** TODO Whiteboarding
+** DONE Whiteboarding
+   CLOSED: [2017-02-08 Wed 11:14]
 
    文章連結: https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1
+
+   當在進行面試的時候，常常會需要有白板測試(whiteboarding)，就是面試官出題目，你在白板上面解題。
+
+   作者提出了幾個建議:
+
+   - Slow Down
+
+     放輕鬆，並嘗試在寫白板的時候，保持程式的整潔。這可以幫助你專注以及讓你的面試官可以清楚的理解你要表達的東西。
+
+   - Ask questions
+
+     大部分的面試問題都是故意含糊不明確的。面試官希望看到你如何處理這些不確定的事務。如果你在實作個演算法，這演算法的限制(constraints)是什麼?記憶體、執行環境(runtime)、輸入大小 ... 等等。
+
+     根據你的回答，面試官可以理解到你對於實際的答案的接近程度是怎樣。
+
+   - Code how you'd normally code
+
+     在白板上不要真的幹寫 50 行函式定義這樣的傻事。 (mmm... 原文意思雖大概知道不知道怎樣講...)
+
+   - Check your work
+
+     當你覺得你完成了，要記得檢查。包含了一些特殊狀況的處理，以及你是否犯了一些不該範的愚蠢錯誤。
+
+   - Practice
+
+     自我練習是最重要的。
+
+   - Research
+
+     你應該要了解你想要去工作的公司，因此要對該公司對作些研究。這樣在面試官問說:『為何你會想在這間公司工作?』這樣的問題的時候，你可以把你對該公司的理解，或是該公司的某些狀況拿來講。
+
+   - Have fun
+
+     享受這些挑戰，不要想的太複雜，有時候能不能在某間公司工作就只是場緣份而已。
 
 ** TODO Effective Whiteboarding during Programming Interviews
 
