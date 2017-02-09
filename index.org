@@ -281,6 +281,15 @@ would be used in the kernel.
    <iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allowfullscreen></iframe>
    #+END_HTML
 
+** TODO How Do You Estimate What You Don't Know?
+
+   介紹連結: https://softnshare.wordpress.com/2017/02/07/esimatewhatyoudonotknow/
+
+   #+BEGIN_HTML
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/PCEM_TTlFi0" frameborder="0" allowfullscreen></iframe>
+   #+END_HTML
+
+   
 * 其他書單
 
 ** DONE M 社軟體開發見聞錄
