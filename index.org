@@ -319,6 +319,14 @@ would be used in the kernel.
    
    不管學了在多的技術，語言是用來溝通用的工具也是很重要的。這本書好像不錯，拿來學習看看。詳細說明請見:[[http://blog.chunnorris.cc/2017/01/tolu-book.html][原作者部落格]] 。
 
+** TODO Geek Silicon Valley
+
+   Amazon: https://www.amazon.com/Geek-Silicon-Valley-Sunnyvale-Francisco/dp/0762742399
+
+   [[file:images/book-list/geek-silicon-valley.jpg]]
+
+   這本是在 [[https://wanqu.co/books][灣區日報]] 看到的推薦書，可以當成矽谷旅遊書籍來看，也可以當成講解矽谷的歷史書籍。
+
 
 * TODO
 
