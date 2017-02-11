@@ -289,6 +289,17 @@ would be used in the kernel.
    <iframe width="560" height="315" src="https://www.youtube.com/embed/PCEM_TTlFi0" frameborder="0" allowfullscreen></iframe>
    #+END_HTML
 
+
+** TODO Bret Victor – Inventing on Principle 
+
+   #+BEGIN_HTML
+   <iframe src="https://player.vimeo.com/video/36579366" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/36579366">Bret Victor - Inventing on Principle</a> from <a href="https://vimeo.com/cusec">CUSEC</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+   #+END_HTML
+
+   中文介紹: [[http://coolshell.cn/articles/6775.html][Bret Victor – Inventing on Principle | | 酷 殼 - CoolShell]]
+
+
    
 * 其他書單
 
