@@ -299,7 +299,6 @@ would be used in the kernel.
    中文介紹: [[http://coolshell.cn/articles/6775.html][Bret Victor – Inventing on Principle | | 酷 殼 - CoolShell]]
 
 
-   
 * 其他書單
 
 ** DONE M 社軟體開發見聞錄
@@ -340,6 +339,18 @@ would be used in the kernel.
    [[file:images/book-list/geek-silicon-valley.jpg]]
 
    這本是在 [[https://wanqu.co/books][灣區日報]] 看到的推薦書，可以當成矽谷旅遊書籍來看，也可以當成講解矽谷的歷史書籍。
+
+* 程式練習
+
+  以下列出我應該要一個一個攻破的練習網站。
+
+** TODO Hacker Rank
+
+   網址: https://www.hackerrank.com
+
+** TODO Leet Code
+
+   網址: https://leetcode.com/
 
 
 * TODO
