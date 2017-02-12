@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/coldnew/google-interview-university.svg?style=svg)](https://circleci.com/gh/coldnew/google-interview-university)
 
-[Online Version](https://coldnew.github.io/google-interview-university)
+<h3><a href="https://coldnew.github.io/google-interview-university">Online Version</a></h3>
 
 This is my learning note on [google-interview-university](https://github.com/jwasham/google-interview-university), I use [org-mode](http://orgmode.org) to write my note instead of markdown and all text written in `Traditional Chinese`.
 
