@@ -294,7 +294,6 @@ would be used in the kernel.
 
    #+BEGIN_HTML
    <iframe src="https://player.vimeo.com/video/36579366" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/36579366">Bret Victor - Inventing on Principle</a> from <a href="https://vimeo.com/cusec">CUSEC</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
    #+END_HTML
 
    中文介紹: [[http://coolshell.cn/articles/6775.html][Bret Victor – Inventing on Principle | | 酷 殼 - CoolShell]]
@@ -320,6 +319,10 @@ would be used in the kernel.
    這本書有簡體翻譯本。此書裡面整理了軟體開發者從如何找工作等面試資訊，到你應該學習投資、養成運動習慣之類的資訊都涵蓋了，是一本對於 =軟體開發者= 蠻不錯的書籍。
 
    這本書也在 [[https://softnshare.wordpress.com/2016/02/24/10classprogrammerbooks/][Soft & Share | 每位認真的程式設計師都要讀的 10 本經典書]] 推薦書單內，建議買來看。
+
+*** 別人的筆記
+    
+    - [[https://medium.com/@wenchenx/soft-skills-%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E5%B7%A5%E4%BD%9C%E7%AF%87-%E7%82%BA%E8%87%AA%E5%B7%B1%E5%B7%A5%E4%BD%9C-5027f191dfff#.9wv51af92][Soft Skills 讀書筆記 工作篇 — 為自己工作]]
 
 ** TODO 英、日語同步 Anki 自學法
 
