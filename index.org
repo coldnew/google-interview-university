@@ -257,6 +257,11 @@ would be used in the kernel.
 
    文章連結: https://www.ptt.cc/bbs/Soft_Job/M.1486241833.A.6D3.html
 
+
+** TODO lnishan's Google Interview
+
+   連結: [[https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/][Google Interview]]
+
 * 持續的自我學習
 
   以下列出一些我的額外讀物
