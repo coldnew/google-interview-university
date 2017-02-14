@@ -358,6 +358,10 @@ would be used in the kernel.
    網址: https://leetcode.com/
 
 
+* 美國工作相關
+
+** TODO [[http://www.1point3acres.com/bbs/][一畝三分地論壇-美國加拿大留學申請|工作就業|英語考試|學習生活信噪比最高的網站 - Powered by Discuz!]]
+
 * TODO
 
 [[https://hackernoon.com/my-slightly-unconventional-path-to-a-google-internship-329a4633a0c0#.e7u00k74j][My (slightly unconventional) path to a Google Internship]]
