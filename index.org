@@ -348,7 +348,6 @@ would be used in the kernel.
 ** TODO Software Engineering at Google
 
     網址: https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf
-
 * 程式練習
 
   以下列出我應該要一個一個攻破的練習網站。
@@ -376,3 +375,13 @@ would be used in the kernel.
 
 
 https://www.google.com/edu/cs/learn/student.html
+* 其他
+
+** DONE Mistakes I made as a developer
+    CLOSED: [2017-02-20 Mon 09:19]
+
+    連結: [[https://medium.com/@Miqubel/mistakes-i-made-d2e1dc4e820a#.ap6emg8wl][Mistakes I made – Medium]]
+
+    中文: [[https://www.oschina.net/news/82051/do-not-transfer-into-management][別轉管理，十年程序員老鳥給新手的幾條忠告 - 開源中國社區]]
+
+** TODO [[https://www.mapr.com/blog/5-google-projects-changed-big-data-forever?utm_campaign=CodeTengu&utm_medium=web&utm_source=CodeTengu_76][5 Google Projects That Changed Big Data Forever | MapR]]
