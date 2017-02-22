@@ -337,6 +337,8 @@ would be used in the kernel.
    
    不管學了在多的技術，語言是用來溝通用的工具也是很重要的。這本書好像不錯，拿來學習看看。詳細說明請見:[[http://blog.chunnorris.cc/2017/01/tolu-book.html][原作者部落格]] 。
 
+   這本書垃圾話很多，我建議去圖書館借就好。基本上就是軟體的教學，沒有到非常值得一定要買下來擺在家裡恭奉的理由。 
+
 ** TODO Geek Silicon Valley
 
    Amazon: https://www.amazon.com/Geek-Silicon-Valley-Sunnyvale-Francisco/dp/0762742399
