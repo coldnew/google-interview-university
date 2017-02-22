@@ -420,3 +420,4 @@ https://www.google.com/edu/cs/learn/student.html
       當到了某個年紀，找工作最好是被人推薦的。其實很多很好的工作也要被推薦才能進去。
 
 ** TODO [[https://www.mapr.com/blog/5-google-projects-changed-big-data-forever?utm_campaign=CodeTengu&utm_medium=web&utm_source=CodeTengu_76][5 Google Projects That Changed Big Data Forever | MapR]]
+** TODO [[http://www.yegor256.com/2017/02/21/say-no-to-google-recruiters.html][Why I Don't Talk to Google Recruiters]]
