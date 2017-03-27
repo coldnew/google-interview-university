@@ -304,6 +304,9 @@ would be used in the kernel.
    中文介紹: [[http://coolshell.cn/articles/6775.html][Bret Victor – Inventing on Principle | | 酷 殼 - CoolShell]]
 
 
+** TODO [[https://softnshare.wordpress.com/2017/03/27/consideration-decide-job/][決定到哪裡工作時需考慮的幾件事 | Soft & Share]]
+
+
 * 其他書單
 
 ** DONE M 社軟體開發見聞錄
