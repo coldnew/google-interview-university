@@ -22,22 +22,22 @@
 
 * 關於這份文件
 
-這是我依據 [[https://github.com/jwasham/google-interview-university][google-interview-university]] 上面的提案，進行學習所作的筆記，雖然目的不一定是要成為 Googler，但是要讓我成為更專業的開發者。
+  這是我依據 [[https://github.com/jwasham/google-interview-university][google-interview-university]] 上面的提案，進行學習所作的筆記，雖然目的不一定是要成為 Googler，但是要讓我成為更專業的開發者。
 
-原作這建議將這張圖片印出來，每天膜拜一定可以有所成 (?)
+  原作這建議將這張圖片印出來，每天膜拜一定可以有所成 (?)
 
-[[file:images/future-googler.png]]
+  [[file:images/future-googler.png]]
 
-#+BEGIN_HTML
-<script>
+  #+BEGIN_HTML
+  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-42122243-1', 'auto');
   ga('send', 'pageview');
-</script>
-#+END_HTML
+  </script>
+  #+END_HTML
 
 * Interview Process & General Interview Prep
 
@@ -262,11 +262,15 @@ would be used in the kernel.
 
    連結: [[https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/][Google Interview]]
 
+** TODO 尚未整理
+
+   [[http://drdoom.pixnet.net/blog/post/333898590-2016-google%e7%b8%bd%e9%83%a8%e9%9d%a2%e8%a9%a6%e7%b6%93%e9%a9%97%e8%ab%87][2016 Google 總部面試經驗談 @ Lady Dr. Doom :: 痞客邦 PIXNET ::]]
+
 * 持續的自我學習
 
   以下列出一些我的額外讀物
 
-  - [ ] [[https://github.com/lnishan/awesome-competitive-programming][awesome-competitive-programming]] 
+  - [ ] [[https://github.com/lnishan/awesome-competitive-programming][awesome-competitive-programming]]
 
     A curated list of awesome Competitive Programming, Algorithm and Data Structure resources
 
@@ -295,7 +299,7 @@ would be used in the kernel.
    #+END_HTML
 
 
-** TODO Bret Victor – Inventing on Principle 
+** TODO Bret Victor – Inventing on Principle
 
    #+BEGIN_HTML
    <iframe src="https://player.vimeo.com/video/36579366" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -328,7 +332,7 @@ would be used in the kernel.
    這本書也在 [[https://softnshare.wordpress.com/2016/02/24/10classprogrammerbooks/][Soft & Share | 每位認真的程式設計師都要讀的 10 本經典書]] 推薦書單內，建議買來看。
 
 *** 別人的筆記
-    
+
     - [[https://medium.com/@wenchenx/soft-skills-%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E5%B7%A5%E4%BD%9C%E7%AF%87-%E7%82%BA%E8%87%AA%E5%B7%B1%E5%B7%A5%E4%BD%9C-5027f191dfff#.9wv51af92][Soft Skills 讀書筆記 工作篇 — 為自己工作]]
 
 ** TODO 英、日語同步 Anki 自學法
@@ -337,10 +341,10 @@ would be used in the kernel.
 
    [[file:images/book-list/anki.jpg]]
 
-   
+
    不管學了在多的技術，語言是用來溝通用的工具也是很重要的。這本書好像不錯，拿來學習看看。詳細說明請見:[[http://blog.chunnorris.cc/2017/01/tolu-book.html][原作者部落格]] 。
 
-   這本書垃圾話很多，我建議去圖書館借就好。基本上就是軟體的教學，沒有到非常值得一定要買下來擺在家裡恭奉的理由。 
+   這本書垃圾話很多，我建議去圖書館借就好。基本上就是軟體的教學，沒有到非常值得一定要買下來擺在家裡恭奉的理由。
 
 ** TODO Geek Silicon Valley
 
@@ -352,7 +356,7 @@ would be used in the kernel.
 
 ** TODO Software Engineering at Google
 
-    網址: https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf
+   網址: https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf
 * 程式練習
 
   以下列出我應該要一個一個攻破的練習網站。
@@ -368,7 +372,7 @@ would be used in the kernel.
 
 ** TODO KHANACADEMY
 
-    https://www.khanacademy.org/computing/computer-science/algorithms/
+   https://www.khanacademy.org/computing/computer-science/algorithms/
 
 * 美國工作相關
 
@@ -376,53 +380,53 @@ would be used in the kernel.
 
 * TODO
 
-[[https://hackernoon.com/my-slightly-unconventional-path-to-a-google-internship-329a4633a0c0#.e7u00k74j][My (slightly unconventional) path to a Google Internship]]
+  [[https://hackernoon.com/my-slightly-unconventional-path-to-a-google-internship-329a4633a0c0#.e7u00k74j][My (slightly unconventional) path to a Google Internship]]
 
 
-https://www.google.com/edu/cs/learn/student.html
+  https://www.google.com/edu/cs/learn/student.html
 * 其他
 
 ** DONE Mistakes I made as a developer
-    CLOSED: [2017-02-20 Mon 09:19]
+   CLOSED: [2017-02-20 Mon 09:19]
 
-    連結: [[https://medium.com/@Miqubel/mistakes-i-made-d2e1dc4e820a#.ap6emg8wl][Mistakes I made – Medium]]
+   連結: [[https://medium.com/@Miqubel/mistakes-i-made-d2e1dc4e820a#.ap6emg8wl][Mistakes I made – Medium]]
 
-    中文: [[https://www.oschina.net/news/82051/do-not-transfer-into-management][別轉管理，十年程序員老鳥給新手的幾條忠告 - 開源中國社區]]
+   中文: [[https://www.oschina.net/news/82051/do-not-transfer-into-management][別轉管理，十年程序員老鳥給新手的幾條忠告 - 開源中國社區]]
 
-    作者為 Google 柏林開發者團隊領袖，依照他的建議如下:
+   作者為 Google 柏林開發者團隊領袖，依照他的建議如下:
 
-    - 堅持在一個 framework 或是語言
+   - 堅持在一個 framework 或是語言
 
-      大概他認為專精比較重要吧，不過如果以台灣來看，通才很多時間更重要的。
+     大概他認為專精比較重要吧，不過如果以台灣來看，通才很多時間更重要的。
 
-      作者提到了:
+     作者提到了:
 
-      #+BEGIN_QUOTE
-      Switching platforms creates a huge negative impact in your CV. It's really hard for an employer to justify paying a big sum of money for a developer that is not an expert on a particular product.
-      #+END_QUOTE
+     #+BEGIN_QUOTE
+     Switching platforms creates a huge negative impact in your CV. It's really hard for an employer to justify paying a big sum of money for a developer that is not an expert on a particular product.
+     #+END_QUOTE
 
-      簡單講就是太通才了，很難讓人認為你會適合某個特定位置。
+     簡單講就是太通才了，很難讓人認為你會適合某個特定位置。
 
-    - 不要因為 $$ 而轉向管理職
+   - 不要因為 $$ 而轉向管理職
 
-      不過一樣在台灣，管理職比較賺錢....  而且在匪區會有這種狀況: [[https://www.zhihu.com/question/55618811][如何評價 2017 年初華為開始「清理」34 歲以上的職員？ - 程序員 - 知乎]]
+     不過一樣在台灣，管理職比較賺錢....  而且在匪區會有這種狀況: [[https://www.zhihu.com/question/55618811][如何評價 2017 年初華為開始「清理」34 歲以上的職員？ - 程序員 - 知乎]]
 
 
-    - 休息一段時間
+   - 休息一段時間
 
-      這可能就像是讓你可以充電吧，的確有時很忙會想休息一段時間。而這段時間可以多學點別的東西。
+     這可能就像是讓你可以充電吧，的確有時很忙會想休息一段時間。而這段時間可以多學點別的東西。
 
-    - ABC: Always be coding
+   - ABC: Always be coding
 
-      這和 [[https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.wqmjpjgn9][ABC: Always Be Coding]] 這篇文章強調的一樣，你要寫了才會，要多寫多學，這也同時對你工作面試有幫助，因為你可能會遇到某種方式的處理方法，而這正是對方想要的。
+     這和 [[https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.wqmjpjgn9][ABC: Always Be Coding]] 這篇文章強調的一樣，你要寫了才會，要多寫多學，這也同時對你工作面試有幫助，因為你可能會遇到某種方式的處理方法，而這正是對方想要的。
 
-    - 成為開發者社群的一部分
+   - 成為開發者社群的一部分
 
-      可以認識人。也可以從夥伴們中學到有趣的東西。
+     可以認識人。也可以從夥伴們中學到有趣的東西。
 
-    - 不要再招聘網求職
+   - 不要再招聘網求職
 
-      當到了某個年紀，找工作最好是被人推薦的。其實很多很好的工作也要被推薦才能進去。
+     當到了某個年紀，找工作最好是被人推薦的。其實很多很好的工作也要被推薦才能進去。
 
 ** TODO [[https://www.mapr.com/blog/5-google-projects-changed-big-data-forever?utm_campaign=CodeTengu&utm_medium=web&utm_source=CodeTengu_76][5 Google Projects That Changed Big Data Forever | MapR]]
 ** TODO [[http://www.yegor256.com/2017/02/21/say-no-to-google-recruiters.html][Why I Don't Talk to Google Recruiters]]
