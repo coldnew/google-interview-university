@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw" xml:lang="zh-tw">
+<head>
+<title>google-interview-university 筆記</title>
+<!-- 2017-07-19 Wed 09:19 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Yen-Chin, Lee" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">google-interview-university 筆記</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">關於這份文件</a></li>
+<li><a href="#sec-2">Interview Process &amp; General Interview Prep</a>
+<ul>
+<li><a href="#sec-2-1"><span class="done DONE">DONE</span> ABC: Always Be Coding</a></li>
+<li><a href="#sec-2-2"><span class="done DONE">DONE</span> Whiteboarding</a></li>
+<li><a href="#sec-2-3"><span class="todo TODO">TODO</span> Effective Whiteboarding during Programming Interviews</a></li>
+<li><a href="#sec-2-4"><span class="todo TODO">TODO</span> Cracking The Coding Interview Set 1:</a>
+<ul>
+<li><a href="#sec-2-4-1"><span class="todo TODO">TODO</span> Gayle L McDowell - Cracking The Coding Interview (video)</a></li>
+<li><a href="#sec-2-4-2"><span class="todo TODO">TODO</span> Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-5"><span class="todo TODO">TODO</span> How to Get a Job at the Big 4:</a>
+<ul>
+<li><a href="#sec-2-5-1"><span class="todo TODO">TODO</span> How to Get a Job at the Big 4 - Amazon, Facebook, Google &amp; Microsoft (video)</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-6"><span class="todo TODO">TODO</span> Prep Course</a>
+<ul>
+<li><a href="#sec-2-6-1"><span class="todo TODO">TODO</span> Software Engineer Interview Unleashed (paid course)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-3">別人的面試經驗</a>
+<ul>
+<li><a href="#sec-3-1"><span class="todo TODO">TODO</span> Google's "Director of Engineering" Hiring Test</a></li>
+<li><a href="#sec-3-2"><span class="todo TODO">TODO</span> 歐洲 Facebook、Google、Booking 面試</a></li>
+<li><a href="#sec-3-3"><span class="todo TODO">TODO</span> I Didn’t Get Hired. Here’s Why</a></li>
+<li><a href="#sec-3-4"><span class="todo TODO">TODO</span> Google Interview</a></li>
+<li><a href="#sec-3-5"><span class="todo TODO">TODO</span> [心得] 第二次 Google 面試洗臉心得</a></li>
+<li><a href="#sec-3-6"><span class="todo TODO">TODO</span> lnishan's Google Interview</a></li>
+<li><a href="#sec-3-7"><span class="todo TODO">TODO</span> 尚未整理</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">持續的自我學習</a></li>
+<li><a href="#sec-5">其他參考</a>
+<ul>
+<li><a href="#sec-5-1"><span class="todo TODO">TODO</span> How to Work at Google: Example Coding/Engineering Interview</a></li>
+<li><a href="#sec-5-2"><span class="todo TODO">TODO</span> How Do You Estimate What You Don't Know?</a></li>
+<li><a href="#sec-5-3"><span class="todo TODO">TODO</span> Bret Victor – Inventing on Principle</a></li>
+<li><a href="#sec-5-4"><span class="todo TODO">TODO</span> 決定到哪裡工作時需考慮的幾件事 | Soft &amp; Share</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">其他書單</a>
+<ul>
+<li><a href="#sec-6-1"><span class="done DONE">DONE</span> M 社軟體開發見聞錄</a></li>
+<li><a href="#sec-6-2"><span class="done DONE">DONE</span> Soft Skills: The Software Developer's Life Manual</a>
+<ul>
+<li><a href="#sec-6-2-1">別人的筆記</a></li>
+</ul>
+</li>
+<li><a href="#sec-6-3"><span class="todo TODO">TODO</span> 英、日語同步 Anki 自學法</a></li>
+<li><a href="#sec-6-4"><span class="todo TODO">TODO</span> Geek Silicon Valley</a></li>
+<li><a href="#sec-6-5"><span class="todo TODO">TODO</span> Software Engineering at Google</a></li>
+<li><a href="#sec-6-6"><span class="todo TODO">TODO</span> Disrupted: My Misadventure in the Start-Up Bubble</a></li>
+</ul>
+</li>
+<li><a href="#sec-7">程式練習</a>
+<ul>
+<li><a href="#sec-7-1"><span class="todo TODO">TODO</span> Hacker Rank</a></li>
+<li><a href="#sec-7-2"><span class="todo TODO">TODO</span> Leet Code</a></li>
+<li><a href="#sec-7-3"><span class="todo TODO">TODO</span> KHANACADEMY</a></li>
+</ul>
+</li>
+<li><a href="#sec-8">美國工作相關</a>
+<ul>
+<li><a href="#sec-8-1"><span class="todo TODO">TODO</span> 一畝三分地論壇-美國加拿大留學申請|工作就業|英語考試|學習生活信噪比最高的網站 - Powered by Discuz!</a></li>
+</ul>
+</li>
+<li><a href="#sec-9"><span class="todo TODO">TODO</span> </a></li>
+<li><a href="#sec-10">其他</a>
+<ul>
+<li><a href="#sec-10-1"><span class="done DONE">DONE</span> Mistakes I made as a developer</a></li>
+<li><a href="#sec-10-2"><span class="todo TODO">TODO</span> 5 Google Projects That Changed Big Data Forever | MapR</a></li>
+<li><a href="#sec-10-3"><span class="todo TODO">TODO</span> Why I Don't Talk to Google Recruiters</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="outline-2" id="meta">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left"><b>Author</b></td>
+<td class="left">Yen-Chin, Lee &lt;coldnew.tw@gmail.com&gt;</td>
+</tr>
+
+<tr>
+<td class="left"><b>Create Date</b></td>
+<td class="left">2017-02-07 12:05:46</td>
+</tr>
+
+<tr>
+<td class="left"><b>Last Update</b></td>
+<td class="left">2017-07-19 09:19:12</td>
+</tr>
+
+<tr>
+<td class="left"><b>GitHub</b></td>
+<td class="left"><a href="https://github.com/coldnew/google-interview-university">https://github.com/coldnew/google-interview-university</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">關於這份文件</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+這是我依據 <a href="https://github.com/jwasham/google-interview-university">google-interview-university</a> 上面的提案，進行學習所作的筆記，雖然目的不一定是要成為 Googler，但是要讓我成為更專業的開發者。<br  />
+</p>
+
+<p>
+原作這建議將這張圖片印出來，每天膜拜一定可以有所成 (?)<br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/future-googler.png" alt="future-googler.png" /><br  />
+</p>
+</div>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-42122243-1', 'auto');
+ga('send', 'pageview');
+</script>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Interview Process &amp; General Interview Prep</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="done DONE">DONE</span> ABC: Always Be Coding</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+原文連結: <a href="https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4">https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4</a><br  />
+</p>
+
+<p>
+作者提供了幾個技巧:<br  />
+</p>
+
+<ol class="org-ol">
+<li>ABC (Always Be Coding)<br  />
+
+<p>
+你寫愈多程式，你可以學到愈多。其實就是這樣簡單，在你寫程式的過程中，也同樣在進行學習。找個想做的專案去作，並做到最好就是最好的練習方式了。<br  />
+</p>
+</li>
+
+<li>Master at least one multi-paradigm language.<br  />
+
+<p>
+精通至少一種程式語言，學很多工具雖然好，但是你還是需要有一個專精的工具才行。作者列出的語言: C#, C++, Java, PHP, Python, Ruby。<br  />
+</p>
+</li>
+
+<li>Complexities (複雜度)<br  />
+
+<p>
+你要了解所謂的複雜度 (Complexities)，這邊有一個表: <a href="http://bigocheatsheet.com/">Big-O Algorithm Complexity Cheat Sheet</a> 可以讓你理解他的運作模式，並且你要 <code>自行實作這些演算法</code> 。<br  />
+</p>
+
+<p>
+<a href="http://discrete.gr/complexity/">A Gentle Introduction to Algorithm Complexity Analysis</a> 也是一篇值得推薦的文章。<br  />
+</p>
+</li>
+
+<li>Re-invent the wheel<br  />
+
+<p>
+自己重新製造輪子是一個吃力不討好的工作，不過可以在這過程中學習到很多資料結構、函式庫的概念。我覺得也可以自行去山寨那些知名的 APP, 這樣可以學到更多。<br  />
+</p>
+</li>
+
+<li>Solve word problems<br  />
+
+<p>
+作者建議去解那些知名的問題，推薦了 <a href="https://www.topcoder.com/">Topcoder</a> 這網站，以及 <a href="https://www.topcoder.com/community/data-science/data-science-tutorials/">Data Science Tutorials</a> 一文。去嘗試去解這些 <a href="https://community.topcoder.com/tc?module=MatchList">問題</a> 。<br  />
+</p>
+
+<blockquote>
+<p>
+Repetition doesn't spoil the prayer.  - Eric Schmidt<br  />
+</p>
+</blockquote>
+
+<p>
+延伸閱讀: <a href="http://books.cw.com.tw/blog/article/375">讓你說的話被聽進去！Google 內部運作的 7 大溝通秘訣(上) - 我讀 WEDO - 天下雜誌</a><br  />
+</p>
+</li>
+
+<li>Make coding easy<br  />
+
+<p>
+至少，讓你的程式碼看起來很簡單明瞭。這在面試時候的白板考題以及 pair programming 時候都很重要。<br  />
+</p>
+
+<p>
+作者推薦文章: <a href="https://medium.com/@dpup/whiteboarding-4df873dbba2e#.l0mwqvoul">Whiteboarding</a><br  />
+</p>
+
+<p>
+延伸閱讀: <a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code</a><br  />
+</p>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="done DONE">DONE</span> Whiteboarding</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+文章連結: <a href="https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1">https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1</a><br  />
+</p>
+
+<p>
+當在進行面試的時候，常常會需要有白板測試(whiteboarding)，就是面試官出題目，你在白板上面解題。<br  />
+</p>
+
+<p>
+作者提出了幾個建議:<br  />
+</p>
+
+<ul class="org-ul">
+<li>Slow Down<br  />
+
+<p>
+放輕鬆，並嘗試在寫白板的時候，保持程式的整潔。這可以幫助你專注以及讓你的面試官可以清楚的理解你要表達的東西。<br  />
+</p>
+</li>
+
+<li>Ask questions<br  />
+
+<p>
+大部分的面試問題都是故意含糊不明確的。面試官希望看到你如何處理這些不確定的事務。如果你在實作個演算法，這演算法的限制(constraints)是什麼?記憶體、執行環境(runtime)、輸入大小 ... 等等。<br  />
+</p>
+
+<p>
+根據你的回答，面試官可以理解到你對於實際的答案的接近程度是怎樣。<br  />
+</p>
+</li>
+
+<li>Code how you'd normally code<br  />
+
+<p>
+在白板上不要真的幹寫 50 行函式定義這樣的傻事。 (mmm... 原文意思雖大概知道不知道怎樣講...)<br  />
+</p>
+</li>
+
+<li>Check your work<br  />
+
+<p>
+當你覺得你完成了，要記得檢查。包含了一些特殊狀況的處理，以及你是否犯了一些不該範的愚蠢錯誤。<br  />
+</p>
+</li>
+
+<li>Practice<br  />
+
+<p>
+自我練習是最重要的。<br  />
+</p>
+</li>
+
+<li>Research<br  />
+
+<p>
+你應該要了解你想要去工作的公司，因此要對該公司對作些研究。這樣在面試官問說:『為何你會想在這間公司工作?』這樣的問題的時候，你可以把你對該公司的理解，或是該公司的某些狀況拿來講。<br  />
+</p>
+</li>
+
+<li>Have fun<br  />
+
+<p>
+享受這些挑戰，不要想的太複雜，有時候能不能在某間公司工作就只是場緣份而已。<br  />
+</p>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="todo TODO">TODO</span> Effective Whiteboarding during Programming Interviews</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+文章連結: <a href="http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/">http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/</a><br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="todo TODO">TODO</span> Cracking The Coding Interview Set 1:</h3>
+<div class="outline-text-3" id="text-2-4">
+</div><div id="outline-container-sec-2-4-1" class="outline-4">
+<h4 id="sec-2-4-1"><span class="todo TODO">TODO</span> Gayle L McDowell - Cracking The Coding Interview (video)</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<p>
+<a href="https://www.youtube.com/watch?v=rEJzOhC5ZtQ">https://www.youtube.com/watch?v=rEJzOhC5ZtQ</a><br  />
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rEJzOhC5ZtQ" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4-2" class="outline-4">
+<h4 id="sec-2-4-2"><span class="todo TODO">TODO</span> Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)</h4>
+<div class="outline-text-4" id="text-2-4-2">
+<p>
+<a href="https://www.youtube.com/watch?v=aClxtDcdpsQ">https://www.youtube.com/watch?v=aClxtDcdpsQ</a><br  />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-5" class="outline-3">
+<h3 id="sec-2-5"><span class="todo TODO">TODO</span> How to Get a Job at the Big 4:</h3>
+<div class="outline-text-3" id="text-2-5">
+</div><div id="outline-container-sec-2-5-1" class="outline-4">
+<h4 id="sec-2-5-1"><span class="todo TODO">TODO</span> How to Get a Job at the Big 4 - Amazon, Facebook, Google &amp; Microsoft (video)</h4>
+<div class="outline-text-4" id="text-2-5-1">
+<p>
+<a href="https://www.youtube.com/watch?v=YJZCUhxNCv8">https://www.youtube.com/watch?v=YJZCUhxNCv8</a><br  />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-6" class="outline-3">
+<h3 id="sec-2-6"><span class="todo TODO">TODO</span> Prep Course</h3>
+<div class="outline-text-3" id="text-2-6">
+</div><div id="outline-container-sec-2-6-1" class="outline-4">
+<h4 id="sec-2-6-1"><span class="todo TODO">TODO</span> Software Engineer Interview Unleashed (paid course)</h4>
+<div class="outline-text-4" id="text-2-6-1">
+<p>
+<a href="https://www.udemy.com/software-engineer-interview-unleashed">https://www.udemy.com/software-engineer-interview-unleashed</a><br  />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">別人的面試經驗</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+以下列出我看到有人分享的面試經驗，以及一些看法。<br  />
+</p>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="todo TODO">TODO</span> Google's "Director of Engineering" Hiring Test</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+文章連結: <a href="http://www.gwan.com/blog/20160405.html">http://www.gwan.com/blog/20160405.html</a><br  />
+</p>
+
+<p>
+這一篇可以參考中文介紹: <a href="http://technews.tw/2016/10/21/googles-nit-picky-interview-process-is-a-huge-turnoff-for-some-experienced-coders/">Google 偏愛白板談兵的大學畢業生，勝過業界多年實務經驗的老工程師？ | TechNews 科技新報</a>。<br  />
+</p>
+
+<p>
+老實說看了以後，我對 Google 面試官的能力深感懷疑，除了問的問題太簡單外，Gauthier (原文作者，也就是應徵者) 會回答的答案也差不多是我會回答的。<br  />
+</p>
+
+<p>
+所以就讓我們挑那幾個 Gauthier 回答錯的問題仔細看看。<br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/gwan/rc-5.png" alt="rc-5.png" /><br  />
+</p>
+</div>
+
+
+
+<div class="figure">
+<p><img src="images/gwan/rc-6.png" alt="rc-6.png" /><br  />
+</p>
+</div>
+
+<p>
+這一題寫過 Unix 程式的人都知道，面試官連基本知識都沒有，我們來透過 manpage 來看看 <code>stat()</code> 的描述:<br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/gwan/rc-6a.png" alt="rc-6a.png" /><br  />
+</p>
+</div>
+
+<p>
+看到沒，回傳值是 <code>error code</code> 而不是 <code>inode metadata</code> ，面試官去吃屎吧。<br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/gwan/rc-7.png" alt="rc-7.png" /><br  />
+</p>
+</div>
+
+<p>
+這一題我真的不懂面試官的邏輯，SIGNAL KILL 的簡寫就是 <code>SIGKILL</code> ，這訊號和 SIGNAL TERMINATE ( SIGTERM ) 本來就是不同的，用途也是不一樣。<br  />
+</p>
+
+<p>
+那到底是誰發出 kill 訊號呢? 廢話，當然是 <a href="https://en.wikipedia.org/wiki/Unix_signal#SIGKILL">SIGKILL</a> (9) ......<br  />
+</p>
+
+<p>
+想知道 SIGKILL 和 SIGTERM 不同的人，可以參考這篇文章看看: <a href="https://major.io/2010/03/18/sigterm-vs-sigkill/">SIGTERM vs. SIGKILL - major.io</a><br  />
+</p>
+
+<p>
+這一題我想原始題目應該是要問: <code>kill 這命令發出的是怎樣的 SIGNAL？</code> ，這樣的答案才符合 SIGTERM 這條件。<br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/gwan/rc-8.png" alt="rc-8.png" /><br  />
+</p>
+</div>
+
+<p>
+做工程的人永遠都要記得一件事，那就是 <code>世界上沒有萬靈藥</code> 。<br  />
+</p>
+
+<p>
+<a href="https://zh.wikipedia.org/wiki/%25E5%25BF%25AB%25E9%2580%259F%25E6%258E%2592%25E5%25BA%258F">quick-sort</a> 雖然大部分狀況下都是 Ο(n log n) 的速度，但是最糟狀況會出現 <code>O(n²)</code> 這種情況。我們可以看看下表的比較圖:<br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/gwan/sort.jpg" alt="sort.jpg" /><br  />
+</p>
+</div>
+
+<p>
+所以真的有所謂的 <code>best sorting</code> 嘛? 沒有，畢竟好壞都是相對的，會依據情況不同而改變。 這邊來說說看為何 Linux kernel 選擇用 <a href="https://zh.wikipedia.org/zh-tw/%25E5%25A0%2586%25E6%258E%2592%25E5%25BA%258F">heap-sort</a> 而不是 <a href="https://zh.wikipedia.org/wiki/%25E5%25BF%25AB%25E9%2580%259F%25E6%258E%2592%25E5%25BA%258F">quick-sort</a>。<br  />
+</p>
+
+<p>
+由上面的排序比較可以知道， <a href="https://zh.wikipedia.org/zh-tw/%25E5%25A0%2586%25E6%258E%2592%25E5%25BA%258F">heap-sort</a> 在各種狀況，即使是最糟糕的狀況都是 <code>O(n log n)</code> ，這增加了效能的可預測性，我們來看看 kernel 內 <code>lib/sort.c</code> 的貢獻者怎說的:<br  />
+</p>
+
+<p>
+(<a href="https://www.kernel.org/pub/linux/kernel/people/akpm/patches/2.6/2.6.11/2.6.11-mm2/broken-out/lib-sort-heapsort-implementation-of-sort.patch">原始 patch 連結</a>)<br  />
+</p>
+
+<pre class="example">
+   This patch adds a generic array sorting library routine. This is meant
+to replace qsort, which has two problem areas for kernel use.
+
+The first issue is quadratic worst-case performance. While quicksort
+worst-case datasets are rarely encountered in normal scenarios, it is
+in fact quite easy to construct worst cases for almost all quicksort
+algorithms given source or access to an element comparison callback.
+This could allow attackers to cause sorts that would otherwise take
+less than a millisecond to take seconds and sorts that should take
+less than a second to take weeks or months. Fixing this problem
+requires randomizing pivot selection with a secure random number
+generator, which is rather expensive.
+
+The second is that quicksort's recursion tracking requires either
+nontrivial amounts of stack space or dynamic memory allocation and out
+of memory error handling.
+
+By comparison, heapsort has both O(n log n) average and worst-case
+performance and practically no extra storage requirements. This
+version runs within 70-90% of the average performance of optimized
+quicksort so it should be an acceptable replacement wherever quicksort
+would be used in the kernel.
+</pre>
+
+<p>
+還在幻想有一勞永逸的方法? 別鬧了，請以實際狀況為準。<br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/gwan/rc-9.png" alt="rc-9.png" /><br  />
+</p>
+</div>
+
+
+
+<div class="figure">
+<p><img src="images/gwan/rc-10.png" alt="rc-10.png" /><br  />
+</p>
+</div>
+
+
+
+<p>
+結論： 沒能力的人坐領高薪真好 QQ<br  />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="todo TODO">TODO</span> 歐洲 Facebook、Google、Booking 面試</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+文章連結: <a href="https://www.ptt.cc/bbs/Soft_Job/M.1478010654.A.9A6.html">https://www.ptt.cc/bbs/Soft_Job/M.1478010654.A.9A6.html</a><br  />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="todo TODO">TODO</span> I Didn’t Get Hired. Here’s Why</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+文章連結: <a href="https://medium.com/@googleyasheck/i-didnt-get-hired-here-s-why-21f26d4784d5#.d170f2hua">https://medium.com/@googleyasheck/i-didnt-get-hired-here-s-why-21f26d4784d5#.d170f2hua</a><br  />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="todo TODO">TODO</span> Google Interview</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+文章連結: <a href="https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/">https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/</a><br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-5" class="outline-3">
+<h3 id="sec-3-5"><span class="todo TODO">TODO</span> [心得] 第二次 Google 面試洗臉心得</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+文章連結: <a href="https://www.ptt.cc/bbs/Soft_Job/M.1486241833.A.6D3.html">https://www.ptt.cc/bbs/Soft_Job/M.1486241833.A.6D3.html</a><br  />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-3-6" class="outline-3">
+<h3 id="sec-3-6"><span class="todo TODO">TODO</span> lnishan's Google Interview</h3>
+<div class="outline-text-3" id="text-3-6">
+<p>
+連結: <a href="https://lnishan.github.io/2017/google-interview-software-engineering-intern-summer-2017/">Google Interview</a><br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-7" class="outline-3">
+<h3 id="sec-3-7"><span class="todo TODO">TODO</span> 尚未整理</h3>
+<div class="outline-text-3" id="text-3-7">
+<p>
+<a href="http://drdoom.pixnet.net/blog/post/333898590-2016-google%E7%B8%BD%E9%83%A8%E9%9D%A2%E8%A9%A6%E7%B6%93%E9%A9%97%E8%AB%87">2016 Google 總部面試經驗談 @ Lady Dr. Doom :: 痞客邦 PIXNET ::</a><br  />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">持續的自我學習</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+以下列出一些我的額外讀物<br  />
+</p>
+
+<ul class="org-ul">
+<li><code>[&#xa0;]</code> <a href="https://github.com/lnishan/awesome-competitive-programming">awesome-competitive-programming</a><br  />
+
+<p>
+A curated list of awesome Competitive Programming, Algorithm and Data Structure resources<br  />
+</p>
+</li>
+
+<li><code>[&#xa0;]</code> <a href="https://github.com/xareelee/BeingAProgrammer">xareelee/BeingAProgrammer: 蒐集關於身為一個程序員的修養資訊</a><br  />
+
+<p>
+列舉一些不錯的書單。<br  />
+</p>
+</li>
+
+<li><code>[&#xa0;]</code> <a href="https://code.google.com/codejam/apactest/contests.html">Practice and Learn - Google Code Jam</a><br  />
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5">其他參考</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="todo TODO">TODO</span> How to Work at Google: Example Coding/Engineering Interview</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+這是 Google 提供的參考面試影片。<br  />
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="todo TODO">TODO</span> How Do You Estimate What You Don't Know?</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+介紹連結: <a href="https://softnshare.wordpress.com/2017/02/07/esimatewhatyoudonotknow/">https://softnshare.wordpress.com/2017/02/07/esimatewhatyoudonotknow/</a><br  />
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PCEM_TTlFi0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="todo TODO">TODO</span> Bret Victor – Inventing on Principle</h3>
+<div class="outline-text-3" id="text-5-3">
+<iframe src="https://player.vimeo.com/video/36579366" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>
+中文介紹: <a href="http://coolshell.cn/articles/6775.html">Bret Victor – Inventing on Principle | | 酷 殼 - CoolShell</a><br  />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-5-4" class="outline-3">
+<h3 id="sec-5-4"><span class="todo TODO">TODO</span> <a href="https://softnshare.wordpress.com/2017/03/27/consideration-decide-job/">決定到哪裡工作時需考慮的幾件事 | Soft &amp; Share</a></h3>
+</div>
+</div>
+
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6">其他書單</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="done DONE">DONE</span> M 社軟體開發見聞錄</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+網址: <a href="https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details">軟體開發見聞錄 · GitBook</a><br  />
+</p>
+
+<p>
+這是從 M 社 (Microsoft) 退休的 RD 的心得, 寫在 GitBook 上，非常值得當課外讀物來看。<br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2"><span class="done DONE">DONE</span> Soft Skills: The Software Developer's Life Manual</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Amazon: <a href="https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397">https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397</a><br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/book-list/Soft Skills- The Software Developer's Life Manual.jpg" alt="Soft Skills- The Software Developer's Life Manual.jpg" /><br  />
+</p>
+</div>
+
+<p>
+這本書有簡體翻譯本。此書裡面整理了軟體開發者從如何找工作等面試資訊，到你應該學習投資、養成運動習慣之類的資訊都涵蓋了，是一本對於 <code>軟體開發者</code> 蠻不錯的書籍。<br  />
+</p>
+
+<p>
+這本書也在 <a href="https://softnshare.wordpress.com/2016/02/24/10classprogrammerbooks/">Soft &amp; Share | 每位認真的程式設計師都要讀的 10 本經典書</a> 推薦書單內，建議買來看。<br  />
+</p>
+</div>
+
+<div id="outline-container-sec-6-2-1" class="outline-4">
+<h4 id="sec-6-2-1">別人的筆記</h4>
+<div class="outline-text-4" id="text-6-2-1">
+<ul class="org-ul">
+<li><a href="https://medium.com/@wenchenx/soft-skills-%E8%AE%80%E6%9B%B8%E7%AD%86%E8%A8%98-%E5%B7%A5%E4%BD%9C%E7%AF%87-%E7%82%BA%E8%87%AA%E5%B7%B1%E5%B7%A5%E4%BD%9C-5027f191dfff#.9wv51af92">Soft Skills 讀書筆記 工作篇 — 為自己工作</a><br  />
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3"><span class="todo TODO">TODO</span> 英、日語同步 Anki 自學法</h3>
+<div class="outline-text-3" id="text-6-3">
+<p>
+博客來: <a href="http://www.books.com.tw/products/0010740471">http://www.books.com.tw/products/0010740471</a><br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/book-list/anki.jpg" alt="anki.jpg" /><br  />
+</p>
+</div>
+
+
+<p>
+不管學了在多的技術，語言是用來溝通用的工具也是很重要的。這本書好像不錯，拿來學習看看。詳細說明請見:<a href="http://blog.chunnorris.cc/2017/01/tolu-book.html">原作者部落格</a> 。<br  />
+</p>
+
+<p>
+這本書垃圾話很多，我建議去圖書館借就好。基本上就是軟體的教學，沒有到非常值得一定要買下來擺在家裡恭奉的理由。<br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6-4" class="outline-3">
+<h3 id="sec-6-4"><span class="todo TODO">TODO</span> Geek Silicon Valley</h3>
+<div class="outline-text-3" id="text-6-4">
+<p>
+Amazon: <a href="https://www.amazon.com/Geek-Silicon-Valley-Sunnyvale-Francisco/dp/0762742399">https://www.amazon.com/Geek-Silicon-Valley-Sunnyvale-Francisco/dp/0762742399</a><br  />
+</p>
+
+
+<div class="figure">
+<p><img src="images/book-list/geek-silicon-valley.jpg" alt="geek-silicon-valley.jpg" /><br  />
+</p>
+</div>
+
+<p>
+這本是在 <a href="https://wanqu.co/books">灣區日報</a> 看到的推薦書，可以當成矽谷旅遊書籍來看，也可以當成講解矽谷的歷史書籍。<br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6-5" class="outline-3">
+<h3 id="sec-6-5"><span class="todo TODO">TODO</span> Software Engineering at Google</h3>
+<div class="outline-text-3" id="text-6-5">
+<p>
+網址: <a href="https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf">https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf</a><br  />
+</p>
+</div>
+</div>
+<div id="outline-container-sec-6-6" class="outline-3">
+<h3 id="sec-6-6"><span class="todo TODO">TODO</span> Disrupted: My Misadventure in the Start-Up Bubble</h3>
+<div class="outline-text-3" id="text-6-6">
+<p>
+網址: <a href="https://www.taaze.tw/sing.html?pid=11100819579">https://www.taaze.tw/sing.html?pid=11100819579</a><br  />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7">程式練習</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+以下列出我應該要一個一個攻破的練習網站。<br  />
+</p>
+</div>
+
+<div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="todo TODO">TODO</span> Hacker Rank</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+網址: <a href="https://www.hackerrank.com">https://www.hackerrank.com</a><br  />
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-7-2" class="outline-3">
+<h3 id="sec-7-2"><span class="todo TODO">TODO</span> Leet Code</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+網址: <a href="https://leetcode.com/">https://leetcode.com/</a><br  />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-sec-7-3" class="outline-3">
+<h3 id="sec-7-3"><span class="todo TODO">TODO</span> KHANACADEMY</h3>
+<div class="outline-text-3" id="text-7-3">
+<p>
+<a href="https://www.khanacademy.org/computing/computer-science/algorithms/">https://www.khanacademy.org/computing/computer-science/algorithms/</a><br  />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8">美國工作相關</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-sec-8-1" class="outline-3">
+<h3 id="sec-8-1"><span class="todo TODO">TODO</span> <a href="http://www.1point3acres.com/bbs/">一畝三分地論壇-美國加拿大留學申請|工作就業|英語考試|學習生活信噪比最高的網站 - Powered by Discuz!</a></h3>
+</div>
+</div>
+
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9"><span class="todo TODO">TODO</span> </h2>
+<div class="outline-text-2" id="text-9">
+<p>
+<a href="https://hackernoon.com/my-slightly-unconventional-path-to-a-google-internship-329a4633a0c0#.e7u00k74j">My (slightly unconventional) path to a Google Internship</a><br  />
+</p>
+
+
+<p>
+<a href="https://www.google.com/edu/cs/learn/student.html">https://www.google.com/edu/cs/learn/student.html</a><br  />
+</p>
+</div>
+</div>
+<div id="outline-container-sec-10" class="outline-2">
+<h2 id="sec-10">其他</h2>
+<div class="outline-text-2" id="text-10">
+</div><div id="outline-container-sec-10-1" class="outline-3">
+<h3 id="sec-10-1"><span class="done DONE">DONE</span> Mistakes I made as a developer</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+連結: <a href="https://medium.com/@Miqubel/mistakes-i-made-d2e1dc4e820a#.ap6emg8wl">Mistakes I made – Medium</a><br  />
+</p>
+
+<p>
+中文: <a href="https://www.oschina.net/news/82051/do-not-transfer-into-management">別轉管理，十年程序員老鳥給新手的幾條忠告 - 開源中國社區</a><br  />
+</p>
+
+<p>
+作者為 Google 柏林開發者團隊領袖，依照他的建議如下:<br  />
+</p>
+
+<ul class="org-ul">
+<li>堅持在一個 framework 或是語言<br  />
+
+<p>
+大概他認為專精比較重要吧，不過如果以台灣來看，通才很多時間更重要的。<br  />
+</p>
+
+<p>
+作者提到了:<br  />
+</p>
+
+<blockquote>
+<p>
+Switching platforms creates a huge negative impact in your CV. It's really hard for an employer to justify paying a big sum of money for a developer that is not an expert on a particular product.<br  />
+</p>
+</blockquote>
+
+<p>
+簡單講就是太通才了，很難讓人認為你會適合某個特定位置。<br  />
+</p>
+</li>
+
+<li>不要因為 $$ 而轉向管理職<br  />
+
+<p>
+不過一樣在台灣，管理職比較賺錢....  而且在匪區會有這種狀況: <a href="https://www.zhihu.com/question/55618811">如何評價 2017 年初華為開始「清理」34 歲以上的職員？ - 程序員 - 知乎</a><br  />
+</p>
+</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>休息一段時間<br  />
+
+<p>
+這可能就像是讓你可以充電吧，的確有時很忙會想休息一段時間。而這段時間可以多學點別的東西。<br  />
+</p>
+</li>
+
+<li>ABC: Always be coding<br  />
+
+<p>
+這和 <a href="https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.wqmjpjgn9">ABC: Always Be Coding</a> 這篇文章強調的一樣，你要寫了才會，要多寫多學，這也同時對你工作面試有幫助，因為你可能會遇到某種方式的處理方法，而這正是對方想要的。<br  />
+</p>
+</li>
+
+<li>成為開發者社群的一部分<br  />
+
+<p>
+可以認識人。也可以從夥伴們中學到有趣的東西。<br  />
+</p>
+</li>
+
+<li>不要再招聘網求職<br  />
+
+<p>
+當到了某個年紀，找工作最好是被人推薦的。其實很多很好的工作也要被推薦才能進去。<br  />
+</p>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-10-2" class="outline-3">
+<h3 id="sec-10-2"><span class="todo TODO">TODO</span> <a href="https://www.mapr.com/blog/5-google-projects-changed-big-data-forever?utm_campaign=CodeTengu&utm_medium=web&utm_source=CodeTengu_76">5 Google Projects That Changed Big Data Forever | MapR</a></h3>
+</div>
+<div id="outline-container-sec-10-3" class="outline-3">
+<h3 id="sec-10-3"><span class="todo TODO">TODO</span> <a href="http://www.yegor256.com/2017/02/21/say-no-to-google-recruiters.html">Why I Don't Talk to Google Recruiters</a></h3>
+</div>
+</div>
+</div>
+</body>
+</html>
