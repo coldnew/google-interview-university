@@ -357,6 +357,10 @@ would be used in the kernel.
 ** TODO Software Engineering at Google
 
    網址: https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf
+** TODO Disrupted: My Misadventure in the Start-Up Bubble
+
+   網址: https://www.taaze.tw/sing.html?pid=11100819579
+
 * 程式練習
 
   以下列出我應該要一個一個攻破的練習網站。
